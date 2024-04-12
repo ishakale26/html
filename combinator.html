@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     /* decendent */  div p{ 
+            color: rgb(92, 92, 23);
+            background-color: rgb(188, 174, 154);
+            text-align: center;
+            font-family: cursive;
+        }
+     /* child */  div>h1{ 
+            color: skyblue;
+            background-color: black;
+        }
+   /* general */   div~h1{ 
+            color: aquamarine;
+            background-color: blue;
+        }
+    /* adjacent */   div+p{ 
+            color: red;
+            background-color: black;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <p>hello isha</p>
+        <p>i am isha</p>
+        <span><p>myself isha</p></span>
+    </div>
+    <div>
+        <h1>hello</h1>
+        <h3>hello</h3>
+        <span><h2>hello</h2></span>
+    </div>
+  
+</body>
+</html>
